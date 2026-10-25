@@ -1,0 +1,43 @@
+# Terraform state, plans and local variables (may contain secrets)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan*
+crash.log
+*.tfvars
+!*.tfvars.example
+override.tf
+*_override.tf
+
+# Credentials and keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+id_*
+!*.pub
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+.kube/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Private, never-published working notes (real IPs, inventory)
+.private/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/*
+!.vscode/extensions.json
