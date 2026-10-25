@@ -9,7 +9,7 @@ A reproducible, security-focused delivery platform: a small Python service built
 Everything below describes the target design. Each capability is marked implemented only when linked evidence exists.
 
 | Area | Status |
-|---|---|
+| --- | --- |
 | Repository, branch protection, docs CI | In progress (M0) |
 | Linux lab and automation (Ansible) | Planned (M1) |
 | Containerized service on K3s with Helm | Planned (M2) |
